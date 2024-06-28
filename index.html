@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiber Circus</title>
+    <link rel="shortcut icon" type="imagex/png" href="./src/icon-Hiber.ico">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <a href="./index.html"><img id="logo" src="./src/icon-Hiber.ico" alt="Hiber Circus"></a>
+        <nav>
+            <div class="nav-list">
+                <ul>
+                    <a href="#servicos">
+                        <li>SERVIÇOS</li>
+                    </a>
+                    <a href="#quem_somos">
+                        <li>QUEM SOMOS</li>
+                    </a>
+                    <a href="#redes_sociais">
+                        <li>REDES SOCIAIS</li>
+                    </a>
+                    <a href="#contatos">
+                        <li>CONTATOS</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div id="btn-icon">
+                <button onclick="menuShow()"><img src="./src/menu-icon.png" alt="menu"></button>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="nav-list-mobile">
+        <ul>
+            <a href="#servicos">
+                <li>SERVIÇOS</li>
+            </a>
+            <a href="#quem_somos">
+                <li>QUEM SOMOS</li>
+            </a>
+            <a href="#redes_sociais">
+                <li>REDES SOCIAIS</li>
+            </a>
+            <a href="#contatos">
+                <li>CONTATOS</li>
+            </a>
+        </ul>
+
+        <div>
+
+        </div>
+    </div>
+
+
+    <img src="./src/img_fundo.png" id="img_fundo">
+
+    <main id="servicos">
+
+        <p class="titulo">SERVIÇOS</p>
+
+        <div id="servicos_conteudo">
+
+            <img src="./src/show_variedades.jpg" alt="" id="servicos_img">
+
+            <div id="servicos_descricao">
+                <p>Dividido em três atos, o espetáculo “Show de Variedades” transita entre o
+                    circo tradicional e o circo contemporâneo, traz à cena o cotidiano dos
+                    artistas circenses que a todo tempo seguem refletindo e se reinventando
+                    diante do imprevisível e das novas demandas da humanidade.</p>
+
+                <p>Classificação: Livre</p>
+
+                <p>Tempo de Duração: 55 minutos</p>
+
+                <p>Ficha Técnica:</p>
+
+                <p>Elenco: Diego Gregório, Gabriel Henrique, João Lucas, Jonas Walace,
+                    Manuela Mendes, Rafah Gomes e Raquel Paiva</p>
+
+                <p>Direção: Everton Bonfim e Taiane Marques</p>
+
+                <p>Maquiagem e Cenário: Criação coletiva</p>
+
+                <p>Figurino: Taiane Marques</p>
+
+                <p>Iluminação: Everton Bonfim</p>
+
+            </div>
+        </div>
+    </main>
+    <div id="quem_somos">
+
+        <div id="quem_somos_descricao">
+            <p>UM POUCO DA NOSSA HISTÓRIA</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus augue massa, tristique sed nisl vel,
+                pellentesque mattis nulla. Maecenas efficitur dui ut
+                nunc pretium, eget varius erat semper. Morbi sit amet
+                odio fringilla, commodo massa ac, auctor sapien. Nulla
+                rutrum urna quis lectus bibendum egestas. Cras ac
+                ipsum id dolor tempor faucibus eu at lorem. Fusce
+                cursus ante in convallis vulputate. Pellentesque
+                habitant morbi tristique senectus et netus et
+                malesuada fames ac turpis egestas. Vestibulum mi
+                nulla, dapibus quis hendrerit vel, accumsan quis felis.
+                Suspendisse vitae lectus nibh. Ut mollis iaculis gravida.
+                Nulla eget est egestas arcu fringilla imperdiet. Cras
+                ultrices nisl id feugiat convallis. Morbi at purus quis mi
+                rutrum ultricies.
+            </p>
+        </div>
+
+        <img src="./src/img_grupo.jpg" alt="" id="quem_somos_img">
+    </div>
+    <div id="redes_sociais">
+        <a href="https://www.instagram.com/hibercircus/" target="blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+        <a href="https://wa.me/554399568501" target="blank"><i class="fa-brands fa-whatsapp fa-2x"></i></a>
+        <a href="https://www.youtube.com/@HiberCircus" target="blank"><i class="fa-brands fa-youtube fa-2x"></i></a>
+    </div>
+    <div id="contatos">
+        <p class="titulo">ENTRE EM CONTATO</p>
+        <div id="conteiner">
+            <div id="contato_conteiner">
+                <form action="https://formsubmit.co/hybercircus@gmail.com" method="POST">
+                    <input type="text" name="nome_completo" placeholder="Nome Completo" id="nome_completo">
+                    <input type="email" name="email" placeholder="E-mail" id="email">
+                    <input type="number" name="telefone" placeholder="Telefone (DDD)" id="telefone">
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"
+                        placeholder="Digite Sua Mensagem"></textarea>
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+
+                    <!-- atualizar o http do input acima para o endereço do site -->
+
+                    <button id="btn_enviar" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <span>© 2024 - Todos os direitos reservados por Hiber Circus</span> <br>
+        <span>Desenvolvido por: Lucas Correia Campos</span>
+    </footer>
+    <script src="./JS/script.js"></script>
+    <script src="https://kit.fontawesome.com/d527274809.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
