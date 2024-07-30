@@ -1,10 +1,12 @@
+/* Apartor de 920px para baixo quebrar o texto da imagem de servoços e de quem somos */
+
 @media (min-width: 1025px) and (max-width: 1200px) {
     nav{
         width: 100%;
     }
 
     #servicos_descricao p {
-        margin-bottom: 5%;
+        margin-bottom: 3%;
     }
 
     #quem_somos_img {
