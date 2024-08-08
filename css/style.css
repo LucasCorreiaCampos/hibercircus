@@ -95,11 +95,12 @@ li:hover {
     background: none;
     display: flex;
     gap: 5%;
+    padding-bottom: 20px;
 }
 
 #servicos_img {
     height: 500px;
-    margin-left: 10%;
+    margin-left: 3%;
     border-radius: 5px;
 }
 
@@ -110,10 +111,10 @@ li:hover {
 #servicos_descricao p {
     width: 90%;
     background: none;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 20px;
     word-wrap: break-word;
-    line-height: 20px;
+    line-height: 15px;
 }
 
 #quem_somos {
